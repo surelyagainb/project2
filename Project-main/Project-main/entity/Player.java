@@ -29,8 +29,8 @@ public class Player extends Entity {
         solidArea.y = 16;
         solidAreaDefaultX = solidArea.x;
         solidAreaDefaultY = solidArea.y; 
-        solidArea.width = 48;
-        solidArea.height = 48;
+        solidArea.width = 16;  // smaller hitbox in order to fit in 2 solid objects
+        solidArea.height = 16; // smaller hitbox in order to fit in 2 solid objects
 
         setDefaultValues();
         getPlayerImage();
