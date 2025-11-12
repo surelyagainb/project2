@@ -57,7 +57,7 @@ public class GamePanel extends JPanel implements Runnable{
         while(gameThread != null){
             double drawInterval = 1000000000/FPS; // 0.01666 seconds
             double nextDrawTime = System.nanoTime() + drawInterval;
-            System.out.println("the game is still running as intended"); //checker if the program is running as intended
+            //System.out.println("the game is still running as intended"); checker if the program is running as intended
             //1 Update information such as the character positions
             update();
             //2 Draw the updated information
